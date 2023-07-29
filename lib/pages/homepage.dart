@@ -68,11 +68,11 @@ class _homepageState extends State<homepage> {
                           footer: Container(
                               child: Text(
                             item.price.toString(),
-                            style: TextStyle(color: Colors.white),
+                            style: TextStyle(color: Colors.black),
 
                           ),
                             padding: const EdgeInsets.all(12),
-                            decoration: BoxDecoration(color: Colors.black),
+                            decoration: BoxDecoration(color: Colors.white),
                           ),
                           child: Image.network(item.image),
                         ));
