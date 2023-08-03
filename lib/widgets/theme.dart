@@ -11,11 +11,17 @@ class MyTheme {
           titleTextStyle: TextStyle(
               color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold)));
 
-  static ThemeData get darktheme =>  ThemeData(
-    brightness: Brightness.dark,
-    primarySwatch: Colors.red,
-    fontFamily: GoogleFonts.lato().fontFamily,
-  );
+  static ThemeData get darktheme => ThemeData(
+        brightness: Brightness.dark,
+        primarySwatch: Colors.red,
+        fontFamily: GoogleFonts.poppins().fontFamily,
+
+
+
+      );
+
+
+  //colours
+  static Color creamColor= Color(0xfff5f5f5);
+  static Color darkBluishColor= Color(0xff403b58);
 }
-
-
